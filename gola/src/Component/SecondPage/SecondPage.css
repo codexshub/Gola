@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+.Secondpage{
+    height: 70vh;
+    background-color: #000;
+    align-items: center;
+    display: flex;
+
+}
+
+.whyUs{
+    color: #d34f2d;
+    /* font-size: 20px; */
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.answer{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+ .videoSection{
+    width: 300px;
+    height: 80px;
+    border: 3px solid #d34f2d;
+    border-radius: 40px;
+    cursor: pointer;
+ }
+ .PlayBtn{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #d34f2d;
+    margin-left: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+ .vid-text{
+    color: #fff;
+    margin-left: 5px;
+    /* font-weight: bold; */
+    font-family: 'Roboto', sans-serif;
+
+ }
+
+ /* Responsiveness start */
+
+@media only screen and (max-width: 1400px){
+    .answer{
+        font-size: 42px;
+    }
+    .videoSection {
+        width: 240px;
+        height: 67px;
+    }
+    .PlayBtn {
+        width: 55px;
+        height: 55px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .answer{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .answer{
+        font-size: 26px;
+    }
+    .videoSection {
+        width: 240px;
+        height: 67px;
+    }
+    .PlayBtn {
+        width: 55px;
+        height: 55px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .Secondpage{
+        width: 100vh;
+    }
+}

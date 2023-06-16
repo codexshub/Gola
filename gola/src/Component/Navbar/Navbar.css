@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainNav{
+    padding: 23px 0 23px 0;
+    /* backdrop-filter: blur(15px); */
+    border-bottom: 2px solid #d34f2d;
+    background-color: #000;   
+     
+}
+.list li span{
+    color: #d34f2d;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif
+}
+.list li{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 13px 8px 13px 8px;
+    list-style: none;
+    cursor: pointer;
+    
+}
+.list li:hover span{
+    color: #fff;
+}
+.list li:hover{
+    color: #d34f2d;
+}
+.join:hover{
+    background-color: #ffffff;
+    transition: 0.2s ease-in;
+    color: #000;
+}
+.join {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+        padding: 10px;
+        border: 2px solid #d34f2d;
+        border-radius: 30px;
+        width: 115px;
+        text-align: center;
+        cursor: pointer;
+}
+.list{
+    justify-content: space-between;
+}
+
+.BrandName:hover h1 span{
+    color: #fff;
+}
+.BrandName:hover{
+    color: #d34f2d;
+}
+.BrandName{
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.BrandName h1 span{
+    color: #d34f2d;
+}
+
+
+/* Navbar hover items */
+
+.hoverNav li:hover{
+    color: #fff;
+    background-color: #d34f2d;
+}
+.hoverNav li{
+    color: #000;
+    list-style: none;
+    padding: 10px 50px 10px 15px;
+}
+
+.hoverNav{
+    /* width: 230px;
+    height: 360px; */
+    background-color: #fff;
+    position: absolute;
+    border-radius: 15px;  
+    display: none;  
+
+}
+.service:hover .hoverNav{
+    display: block;
+}
+.cabs:hover .hoverNav{
+    display: block;
+}
+.aboutus:hover .hoverNav{
+    display: block;
+}
+
+
+/* Responsiveness start */
+
+@media only screen and (max-width: 768px){
+    .joinus-Container{
+        display: none !important;
+    }
+    .list{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 576px){
+    .BrandName{
+        justify-content: center;
+        display: flex;
+    }
+}
+

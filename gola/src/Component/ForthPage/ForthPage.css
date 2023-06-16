@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+.ForthPage{
+    background-color: #000;
+    height: 87vh;
+
+
+}
+.ForthSubTitle h1{
+    color: #fff;
+    font-size: 80px;
+    /* font-weight: bold; */
+}
+.ForthSubTitle h2{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+.ForthSubTitle h2 span{
+    color: #d34f2d;
+}
+.ForthSubTitle p{
+    color: #999999;
+}
+
+ /* Responsiveness start */
+
+ @media only screen and (max-width: 992px){
+    .ForthSubTitle h2 {
+        font-size: 34px;
+    }
+ }
+ @media only screen and (max-width: 768px){
+.ForthSubTitle h2 {
+    font-size: 25px;
+}
+ }
+ @media only screen and (max-width: 650px){
+    .ForthPage{
+        width: 100vh;
+    }
+}

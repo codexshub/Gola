@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.SexthPage{
+    height: 70vh;
+    background-color: #000;
+    align-items: center;
+    display: flex;
+
+
+}
+.SethHeading h1 span{
+    color: #d34f2d;
+    font-family: 'Montserrat', sans-serif;
+}
+.SethHeading h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 45px;
+}
+/* Responsiveness start */
+
+@media only screen and (max-width: 992px){
+    .SethHeading h1 {
+        font-size: 35px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+.SethHeading h1 {
+    font-size: 26px;
+}
+.store {
+    width: 194px;
+    height: 62px;
+}
+}
+@media only screen and (max-width: 650px){
+    .SexthPage{
+        width: 100vh;
+    }
+}
